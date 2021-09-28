@@ -1,3 +1,7 @@
+/* Creating a custom data collector set (Data Collector is a component of SQL Server that collects capacity planning and performance data over time).
+Advantages of usage: low overhead data collection, persistence of diagnostics data, data retention, rich reporting, easy extensibility, central repository for several SQL Server instances.
+/*
+
 --Create a custom data collector set
 DECLARE @collection_set_id_1 INT
 DECLARE @collection_set_uid_2 uniqueidentifier
